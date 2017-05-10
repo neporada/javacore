@@ -7,9 +7,18 @@ import com.kitcenter.app.utils.convertors.PrimitiveConvertor;
  */
 public class Lesson3Runner {
     public void main (String args[]){
-        PrimitiveConvertor myPC = new PrimitiveConvertor();
-        myPC.charToInt();
-        myPC.floatToChar();
-        myPC.intToChar();
+        PrimitiveConvertor myFloat = new PrimitiveConvertor();
+        myFloat.floatToChar();
+    }
+
+    public void main(String[] args) {
+        PrimitiveConvertor myChar = new PrimitiveConvertor();
+        myChar.charToInt();
+    }
+
+    public void main(String[] args) {
+        PrimitiveConvertor myInt = new PrimitiveConvertor();
+        myInt.intToChar();
+
     }
 }

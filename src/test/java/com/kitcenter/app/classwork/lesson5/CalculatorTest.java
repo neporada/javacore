@@ -6,7 +6,7 @@ import org.junit.*;
  * Created by denis on 5/3/17.
  */
 public class CalculatorTest {
-    int numberOne, numberTwo
+    int numberOne, numberTwo;
 
     /*
     Initialize test data for Claculator functionallity
@@ -32,11 +32,12 @@ public class CalculatorTest {
 
     @AfterClass
     public void tearDown (){
+
         System.out.println("Postcondition for every test");
     }
 
     @AfterClass
-    public void tearDownForClass () {
+    public void tearDownForClass (){
         System.out.println("Postcondition for every class");
     }
 }
