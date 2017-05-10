@@ -15,9 +15,10 @@ public class CircleArea {
 
         System.out.println("Area is" + circleArea);
     }
+    public static final double PI = 3.14d;
     public static void calculateBigger(){
-        public static final double PI = 3.14d;
-
+         int area1 = 1;
+         int area2 =2;
         if (area1 > area2){
             System.out.println("Area1 is bigger");
         } else {

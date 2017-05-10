@@ -31,13 +31,14 @@ public class CalculatorTest {
     }
 
     @AfterClass
-    public void tearDown (){
+    public static void tearDown (){
 
         System.out.println("Postcondition for every test");
     }
 
     @AfterClass
-    public void tearDownForClass (){
+    public static void tearDownForClass (){
+
         System.out.println("Postcondition for every class");
     }
 }
