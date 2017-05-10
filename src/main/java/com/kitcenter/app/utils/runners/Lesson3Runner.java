@@ -9,14 +9,10 @@ public class Lesson3Runner {
     public void main (String args[]){
         PrimitiveConvertor myFloat = new PrimitiveConvertor();
         myFloat.floatToChar();
-    }
 
-    public void main(String[] args) {
         PrimitiveConvertor myChar = new PrimitiveConvertor();
         myChar.charToInt();
-    }
 
-    public void main(String[] args) {
         PrimitiveConvertor myInt = new PrimitiveConvertor();
         myInt.intToChar();
 

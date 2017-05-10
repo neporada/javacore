@@ -9,7 +9,7 @@ import java.net.SocketPermission;
  */
 public class Car {
     public String name;
-    public static int speed = 10;
+    public int speed = 10;
 
     public static void showSpeed () {
         System.out.println("Speed is 10");

@@ -8,7 +8,7 @@ import com.kitcenter.app.classwork.lesson5.Car;
 public class CarRunner {
     static int counter = 10;
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Car carOne = new Car();
         carOne.name = "BMW";
         System.out.println(carOne.name);
@@ -18,7 +18,7 @@ public class CarRunner {
         System.out.println(carTwo.name);
 
         System.out.println(Car.speed);
-        Car speed =15;
+        Car speed = 15;
         Car.showSpeed();
         System.out.println(counter);
         }
