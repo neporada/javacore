@@ -24,7 +24,6 @@ public class UnitTestingHW {
     public void TestThird (){
         double a = 5.5, expsRes = 6.0;
         Assert.assertEquals(expsRes, Math.rint(a), 0.1);
-
     }
 
     @Test
@@ -32,10 +31,5 @@ public class UnitTestingHW {
         double d1 = 5.0, d2 = 3.0, expsRes = 5.0;
         Assert.assertEquals(expsRes, Math.max(d1, d2), 0.1);
     }
-
-//    @Test
-//    public void TestFifth (){
-//
-//    }
 }
 

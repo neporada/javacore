@@ -1,4 +1,4 @@
-package com.kitcenter.runners.lesson10;
+package com.kitcenter.runners.classwork.lesson10;
 
 import java.util.ArrayList;
 import java.util.Arrays;
