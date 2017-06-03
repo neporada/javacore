@@ -13,5 +13,6 @@ public class ReadFileRunner {
     public static void main(String[] args) throws IOException {
         ReadFile readFile = new ReadFile();
         readFile.readFile("src/main/resources/input.txt");
+
     }
 }

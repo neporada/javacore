@@ -1,4 +1,4 @@
-package com.kitcenter.runners.classwork.lesson11;
+package com.kitcenter.runners.classwork.lesson12;
 
 import com.kitcenter.app.classwork.lesson12.ReadFile;
 import com.kitcenter.app.classwork.lesson12.WriteFile;
@@ -10,18 +10,14 @@ import java.io.IOException;
  */
 public class ReadWritePolindromeRunner {
     public static void main(String[] args) throws IOException {
-        // Read File
 
         String input;
         ReadFile readFile = new ReadFile();
-        input = readFile.readFile("src/main/resources/input.txt");
+        input = readFile.readFile("src/main/resources/input.txt"); // Read File
 
-
-        // Check Polindrome & write to file
-
-        StringBuilder builder = new StringBuilder(input);
+        StringBuilder builder = new StringBuilder(input); // Check Polindrome
         builder.reverse();
-        if (input.equals(builder.toString())){
+        if (input.equals(builder.toString())){            // Write to File
             WriteFile writer = new WriteFile();
             writer.writeFile("src/main/resources/output.txt");
         } else {
