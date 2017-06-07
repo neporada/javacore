@@ -17,8 +17,8 @@ public class ReadWritePolindromeRunner {
 
         StringBuilder builder = new StringBuilder(input); // Check Polindrome
         builder.reverse();
-        if (input.equals(builder.toString())){            // Write to File
-            WriteFile writer = new WriteFile();
+        if (input.equals(builder.toString())){
+            WriteFile writer = new WriteFile();   // Write to File
             writer.writeFile("src/main/resources/output.txt");
         } else {
             System.out.println("Not palindrome");

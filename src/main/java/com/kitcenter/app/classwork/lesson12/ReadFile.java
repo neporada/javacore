@@ -16,7 +16,7 @@ public class ReadFile {
             String line;
             String absolutePath = createAbsoultePath(currentDir, relativeToProject);
             BufferedReader bufferedReader = new BufferedReader(new FileReader(absolutePath));
-                line = bufferedReader.readLine();
+            line = bufferedReader.readLine();
             bufferedReader.close();
             return line;
         }
