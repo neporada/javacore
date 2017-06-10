@@ -13,7 +13,8 @@ public class ReadWritePolindromeRunner {
 
         String input;
         ReadFile readFile = new ReadFile();
-        input = readFile.readFile("src/main/resources/input.txt"); // Read File
+        input = readFile.readFile("src/main/resources/input.txt");  // Read File
+        System.out.println(input);
 
         StringBuilder builder = new StringBuilder(input); // Check Polindrome
         builder.reverse();
