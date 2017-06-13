@@ -32,7 +32,7 @@ public class Human {
         }else{
             System.out.println("“Age invalid”");
         }
-        // return ?;
+        // return ? how I can realize returning of newAge variable;
     }
     public Human(String name, int age){
         this.name = name;
