@@ -17,6 +17,10 @@ public class Human {
     private String name;
     private int age;
 
+
+    public Human(String string) {
+    }
+
     public String getName() {
         return name;
     }
@@ -38,4 +42,5 @@ public class Human {
         this.name = name;
         this.age = age;
     }
+
 }
