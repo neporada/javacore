@@ -11,4 +11,12 @@ public class BMW extends Cars {
     public void carDrives(){
         System.out.println("BMW class");
     }
+
+    @Override
+    public String toString() {
+        return "BMW{" +
+                "name = \'" + name + '\'' +
+                ", speed = " + speed +
+                '}';
+    }
 }
